@@ -1,0 +1,11 @@
+Description of DATA
+
+We provide CSV and RData files that contain the Twitter corpus we collected via Twitter FullSearch API. 
+
+
+The data are organized in three different tables: 
+
+- "tweets" > 200458 tweets (included 159176 retweet, 8622 quote, 6219 reply) containing at least one of the following hashtags: #wienterror,#prayforvienna, #viennaterrorattack, #viennaattack, #0211w, #wienattack, #viennashooting, #wirsindwien, #wienliebe, #austriaterrorattack, #schleichdiduoaschloch, #schleichdiduorschloch
+- "users" > 122243 users involved in the previous list of tweets (authors, mentioned, retweeted)
+- "other_tweets" > 17726 tweets related to the first dataset (original tweet that has been retweeted, quoted or replied)
+
